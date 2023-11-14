@@ -5,8 +5,14 @@ public class Tank {
     double Rank;
     boolean AmmoRack;
     int Ammo;
+    int LastVictory;
     void showDetails(){
         System.out.println("Tank : " + Name);
         System.out.println("Year : " +Year);
+    }
+
+    void totalWins(){
+        LastVictory += result;
+
     }
 }
