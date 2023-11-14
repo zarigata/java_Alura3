@@ -5,7 +5,6 @@ public class Main {
         myTank.Year = 1941;
         myTank.Rank = 6.3;
 
-        System.out.println(myTank.Name);
-        System.out.println(myTank.Year);
+        myTank.showDetails();
     }
 }
