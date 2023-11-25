@@ -1,6 +1,6 @@
-# War Thunder Tank Analyzer
+# War Thunder com.zarigata.tank.Tank Analyzer
 
-The War Thunder Tank Analyzer is a Java program that helps analyze the combat effectiveness of tanks in the game War Thunder. It allows you to check if tanks can penetrate or survive each other's shots based on their armor thickness and penetration values.
+The War Thunder com.zarigata.tank.Tank Analyzer is a Java program that helps analyze the combat effectiveness of tanks in the game War Thunder. It allows you to check if tanks can penetrate or survive each other's shots based on their armor thickness and penetration values.
 
 ## Prerequisites
 
