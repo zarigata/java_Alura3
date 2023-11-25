@@ -32,7 +32,7 @@ public class Tank {
 
     //METHODS
     void showDetails(){//this classifies the tank details
-        System.out.println("com.zarigata.tank.Tank : " + Name);
+        System.out.println("Name : " + Name);
         System.out.println("Year : " +Year);
         System.out.println("Battle Rate" + br);
     }
