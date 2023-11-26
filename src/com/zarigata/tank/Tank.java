@@ -3,20 +3,17 @@ package com.zarigata.tank;
 public class Tank {
     // NON ALOCATED IN MATH //
     private String Name; // name of the tank
+    private String Version; //the variant of the tank
+    private String Nation; // What Country mad the tank
     private int Year; // year of first rollout
     private boolean Unlocked; // if it is unlocked to the player
     private double br; // the rank it is
     //========//
-    private boolean AmmoRack; //if it has ammo in the way
     private int Ammo; // what ammo was shot
-    //=======//
-    private double Battles; //
-    private int LastVictory;
 
-    double getBattles()
-    {
-        return Battles;
+    public Tank() {
     }
+    //=======//
 
     public void setName(String name) {
         this.Name = name;
@@ -31,20 +28,10 @@ public class Tank {
     }
 
     //METHODS
-    void showDetails(){//this classifies the tank details
+    public void showDetails(){//this classifies the tank details
         System.out.println("Name : " + Name);
         System.out.println("Year : " +Year);
         System.out.println("Battle Rate" + br);
-    }
-
-    void totalWins(float result){
-        LastVictory += result;
-        Battles++;
-    }
-
-    double averageBattles()
-    {
-        return LastVictory / Battles;
     }
 }
 
