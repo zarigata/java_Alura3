@@ -11,4 +11,7 @@ public class Model extends Tank {
     public void setModel(string model) {
         Model = model;
     }
+
+    private class string {
+    }
 }
